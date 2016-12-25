@@ -84,4 +84,4 @@ PROPRIETARY_FILES := \
     lib/libyasalgo.so
 
 PRODUCT_COPY_FILES += \
-    $(foreach f,$(PROPRIETARY_FILES),vendor/samsung/grandprimeve3g/proprietary/$(f):system/$(f))
+    $(foreach f,$(PROPRIETARY_FILES),vendor/samsung/grandprimevelte/proprietary/$(f):system/$(f))
